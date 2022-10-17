@@ -1,48 +1,25 @@
-//Tür Dönüşümü
+var customerName = 'Öınar';
+var fullName='Feer';
+var musteriId = '1234';
+var total = 205.6;
+var gender = 'erkek';
 
-// let num1 = '5';
-// let num2 = '5';
+//object
+var address = {
+    city:'Kocaeli',
+    district: 'İzmit',
+    body: 'Ömeraga'
+}
 
+//array
+var hobbies = ['Sinema','Kitap','Spor'];
 
-// let num1 = Number('5');
-// let num2 = Number('15');
-// console.log(num1+num2);
-// console.log(typeof num1);
+var orser1 = parseInt('100.2');
+var order2 = parseInt('100.5');
 
-let val;
-//number to String
-val = String(10);
+var totalOrder3 = order2 + orser1;
+console.log(totalOrder3);
 
-val = String(true);
-
-//date to string
-val = String(new Date().getFullYear());
-
-//array to string
-val = String([1,2,3,4]);
-
-//toString()
-val = (false).toString();
-
-//string to number
-val = Number('10');
-val = Number(true);
-val = Number(false);
-val = Number(null);
-val = Number('a');
-val = Number([1,2,3,4]);
-
-//parseInt
-//parseFloat
-
-val = parseInt('10');
-val = parseInt('10.5');
-val = parseFloat('10.5');
-
-
-
-console.log(val);
- console.log(typeof val);
- console.log(val.toFixed(3));
-
-
+const yearOfBirth = 1986;
+//yearOfBirth = 1987;
+console.log(new Date().getFullYear()-yearOfBirth);
