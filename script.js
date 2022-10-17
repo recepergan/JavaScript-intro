@@ -1,52 +1,37 @@
-// alert("Merhaba");
-// console.log(1234);
-// console.log([1,2,3]);
-// console.error("hata oluştı");;
-// console.warn("bir uyarı oluşrıt");
+//Ders 3 : Değişken Tipleri
+//Primitive Types
 
-//Değişkenler
-// var age;
-// console.log(age);
-age = 20;
-console.log(age);
+//String
+let firstName='Çınar';
 
-var fullname='Recep Ergan';
-console.log(fullname);
+//Number
+let age = 20;
+let money = 100.5;
 
-var fullname='kare Ergan';
-console.log(fullname);
+//Boolean
+let isActive = true;
 
-//Değişken Tanımlama
-//Sayısal ifade ile başlayamaz
-var yas1;
-var $yas3;
+//null
+let job = null;
 
-//Komut isimleriyle tanımlama yapılamaz
-//Birden fazla kelime
+//undefined
+let car;
+console.log(typeof car);
 
-var ad_soyad = "Recep Ergan";
-var adSoyad = "Recep Ergan";
+//Reference Types - Objects
 
-//case sensitive
+//Array
+let names = ['Ali','Ahmet','Can'];
 
-var firstName = "rede";
-var FİrstName = "fsd";
+//Object
+let address = {
+    city:'Kocaeli',
+    country:'Türkiye'
+}
 
-console.log(firstName);
-console.log(FİrstName);
+//Function
+var calculateAge = function(){
+    return 0;
+};
 
-//var, let, const
-let city = "Kocaeli";
-console.log(city);
-
-const email = "acca@gmail.com";
-console.log(email);
-
-email = "dscd@gmail.com";
-console.log(email);
-
-    
-
-
-
-    
+console.log(typeof calculateAge);
