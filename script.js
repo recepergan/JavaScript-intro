@@ -1,25 +1,52 @@
-var customerName = 'Öınar';
-var fullName='Feer';
-var musteriId = '1234';
-var total = 205.6;
-var gender = 'erkek';
+//operatörler
 
-//object
-var address = {
-    city:'Kocaeli',
-    district: 'İzmit',
-    body: 'Ömeraga'
-}
+let val;
+const a = 10;
+const b = 5;
+let c = 3;
 
-//array
-var hobbies = ['Sinema','Kitap','Spor'];
 
-var orser1 = parseInt('100.2');
-var order2 = parseInt('100.5');
+//1- Aritmetik O.
+val = a+ b;
+val = a - b;
+val = a * b;
+val = a / b;
+val = a%b;
+// val = c++;
+// val = ++c;
+val = --c;
+val = c--;
+console.log(val);
 
-var totalOrder3 = order2 + orser1;
-console.log(totalOrder3);
+//2-Atama operatörleri
 
-const yearOfBirth = 1986;
-//yearOfBirth = 1987;
-console.log(new Date().getFullYear()-yearOfBirth);
+val = a;
+console.log(val);
+val +=a; //val = val + a;
+console.log(val);
+val -=a; //val = val - a;
+
+console.log('-------');
+//3-Karsılaştırma operatörleri
+
+val = a==b
+val = b==c
+val = b===c; //değer kontrolü & type
+val = 5 ==='5';
+val = a!=b;
+val = a > b
+val = b > a
+
+//4- mantıksal operatörler
+
+//&&(and)
+
+val = (a>b) && (a>c)
+//||or)
+// ! (not)
+
+
+
+
+console.log(val);
+console.log(typeof val);
